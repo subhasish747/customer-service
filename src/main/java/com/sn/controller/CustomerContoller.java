@@ -24,7 +24,7 @@ public class CustomerContoller {
 	private ICustService custService;
 	
 	
-	@Value("${customer.name :not found}")
+	@Value("${customer.rabbitmq.exchange :not found}")
 	private String customerName;
 	
 
