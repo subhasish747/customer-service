@@ -1,0 +1,14 @@
+---
+applications:
+- name: 249071-customer-service
+  path: target\shopping-customer-service-1.0.0.jar
+  memory: 1G
+  env :
+     spring.profile.active: cloud
+  services:
+    - rabbitMQService
+    - 249071_Eureka
+    - 249071_config_server
+  routes:
+    - route: 249071-customer-service.cfapps.io
+    
