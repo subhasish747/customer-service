@@ -2,7 +2,7 @@
 applications:
 - name: 249071-customer-service2
   path: target\customer-service-1.0.0.jar
-  memory: 1G
+  memory: 2G
   env :
      spring.profile.active: cloud
   services:
