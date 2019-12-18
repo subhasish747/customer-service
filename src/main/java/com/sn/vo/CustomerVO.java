@@ -17,13 +17,21 @@ private String lastName;
 
 private String email;
 
-public CustomerVO(long customerId, String firstName, String lastName, String email) {
-	super();
-	this.customerId = customerId;
-	this.firstName = firstName;
-	this.lastName = lastName;
-	this.email = email;
-}
+//public CustomerVO(long customerId, String firstName, String lastName, String email) {
+//	super();
+//	this.customerId = customerId;
+//	this.firstName = firstName;
+//	this.lastName = lastName;
+//	this.email = email;
+//}
+//
+//public CustomerVO(String firstName, String lastName, String email) {
+//	super();
+//	this.firstName = firstName;
+//	this.lastName = lastName;
+//	this.email = email;
+//}
+//
 
 public CustomerVO() {
 	super();

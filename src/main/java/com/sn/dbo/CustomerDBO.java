@@ -23,6 +23,20 @@ public class CustomerDBO {
 	@Column(name = "email")
 	private String email;
 
+	
+	
+
+	public CustomerDBO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public CustomerDBO(String firstName, String lastName, String email) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
 
 	public Long getId() {
 		return id;
